@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.acfa1e87.css",
-    "main.js": "/static/js/main.a6822567.js",
+    "main.js": "/static/js/main.77cf64bf.js",
     "static/js/787.8d3d7125.chunk.js": "/static/js/787.8d3d7125.chunk.js",
     "static/media/SkillshareScreen.png": "/static/media/SkillshareScreen.46de3116440c1a5a4407.png",
     "static/media/fetcherPage.png": "/static/media/fetcherPage.8ba318c577b215717ab1.png",
@@ -9,11 +9,11 @@
     "static/media/fetcherLogo.png": "/static/media/fetcherLogo.9ea598054cbfd7917e90.png",
     "index.html": "/index.html",
     "main.acfa1e87.css.map": "/static/css/main.acfa1e87.css.map",
-    "main.a6822567.js.map": "/static/js/main.a6822567.js.map",
+    "main.77cf64bf.js.map": "/static/js/main.77cf64bf.js.map",
     "787.8d3d7125.chunk.js.map": "/static/js/787.8d3d7125.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.acfa1e87.css",
-    "static/js/main.a6822567.js"
+    "static/js/main.77cf64bf.js"
   ]
 }
