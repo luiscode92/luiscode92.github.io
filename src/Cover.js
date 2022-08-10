@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React from 'react'
 import styled from '@emotion/styled'
 
 function Cover() {
@@ -26,8 +26,29 @@ function Cover() {
         }}
       >
         <PrimaryButton  href="mailto:luiscode92@gmail.com">Email me</PrimaryButton>
-        <SecondaryButton href='http://twitter.com/luiscode92'> Twitter</SecondaryButton>
+        <SecondaryButton href='https://github.com/luiscode92'> Github</SecondaryButton>
       </div>
+      <div style={{
+          fontFamily: "Inter, sans-serif",
+          marginTop: "100px",
+          position: "relative",
+          borderRadius: "6px",
+          backgroundColor: "#f8f9fc",
+          border: "solid 1px white",
+          width: "560px",
+          height: "50px"
+        }}>
+          <div style={{
+              margin: 0,
+              position: "absolute",
+              top: "50%",
+              left:"50%",
+              transform: "translate(-50%,-50%)",
+              color: "#868686",
+              fontSize:"12px",
+              fontFamily: "system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;",
+          }}>Project's section + articles, coming soon...  </div>
+        </div>
     </CoverContainer>
   )
 }
@@ -61,25 +82,7 @@ const DescriptionContainer = styled.div`
 `; 
 
 const PrimaryButton = styled.a`
-  background-color: black;
-  color: white;
-  padding: 12px 16px;
-  border: 1px solid #1d1e20;
-  font-size: 18px;
-  border-radius: 6px;
-  box-shadow: 0 4px 4px 0 rgb(0 0 0 / 10%);
-  font-weight: 600;
-  text-decoration: none;
-  cursor: pointer;
-  &:hover {
-    background-color: #1d1e20;
-    border: 1px solid #1d1e20;
-  }
-`;
-
-const SecondaryButton = styled.a`
   background-color: white;
-  margin-left: 16px;
   color: black;
   padding: 12px 16px;
   border: 1px solid white;
@@ -92,5 +95,24 @@ const SecondaryButton = styled.a`
   &:hover {
     background-color: #f8f9fc;
     border: 1px solid #f8f9fc;
+  }
+`;
+
+const SecondaryButton = styled.a`
+
+  background-color: black;
+  margin-left: 16px;
+  color: white;
+  padding: 12px 16px;
+  border: 1px solid black;
+  font-size: 18px;
+  border-radius: 6px;
+  box-shadow: 0 4px 4px 0 rgb(0 0 0 / 10%);
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+  &:hover {
+    background-color: #1d1e20;
+    border: 1px solid #1d1e20;
   }
 `;
