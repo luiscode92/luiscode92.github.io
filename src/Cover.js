@@ -8,14 +8,11 @@ function Cover() {
       <Span>Hey, I'm Luis.</Span>
       <DescriptionContainer>
         <P>
-          Fullstack developer with +4 years of experience developing digital products and using Javascript,
-          NodeJs, Reactjs, several UI frameworks.
+          Fullstack developer with +5 years of experience developing digital products for startups,  and using Javascript, NodeJs, Reactjs, several UI frameworks
+           to create robust and scalable applications.
         </P>
         <P>
-          Luis is performance-driven and  focused on grow through humanistic leadership
-        </P>
-        <P>
-        Web3 & blockchain entusiast
+       Passioned for IA and LLMs, I'm a strong believer in the potential of AI systems, 
         </P>
       </DescriptionContainer>
       <div style=
@@ -27,6 +24,7 @@ function Cover() {
       >
         <PrimaryButton  href="mailto:luiscode92@gmail.com">Email me</PrimaryButton>
         <SecondaryButton href='https://github.com/luiscode92'> Github</SecondaryButton>
+        <ThirdButton href='https://twitter.com/luiscode92'> Twitter</ThirdButton>
       </div>
       <div style={{
           fontFamily: "Inter, sans-serif",
@@ -114,5 +112,24 @@ const SecondaryButton = styled.a`
   &:hover {
     background-color: #1d1e20;
     border: 1px solid #1d1e20;
+  }
+`;
+
+const ThirdButton = styled.a`
+
+  background-color: #003166;
+  margin-left: 16px;
+  color: white;
+  padding: 12px 16px;
+  border: 1px solid black;
+  font-size: 18px;
+  border-radius: 6px;
+  box-shadow: 0 4px 4px 0 rgb(0 0 0 / 10%);
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+  &:hover {
+    background-color: #1DA1F2;
+    border: 1px solid #1DA1F2;
   }
 `;

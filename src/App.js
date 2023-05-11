@@ -10,6 +10,8 @@ import logoLounge from "./assets/loungeLogo.png"
 import pageLounge from "./assets/loungeApp.png"
 import logoSkillshare from './assets/SkillshareLogo.png'
 import pageSkillshare from './assets/SkillshareScreen.png'
+import logoRisepal from './assets/risepal.png'
+import pageRisepal from './assets/arouse.png'
 import { BrowserRouter } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 
@@ -17,6 +19,17 @@ import { HashLink } from 'react-router-hash-link';
 function App() {
 
   const experiencesData = [
+    {
+      logo: logoRisepal,
+      name: "RisePal",
+      stack: "VueJs, Javascript, Python, Storybook, Large Language Models (LLM), PostgreSQL",
+      description: "RisePal helps individuals with their professional growth through personal coaching and IA models.",
+      startingDate: "Jan 2023",
+      finishedDate: "may 2023",
+      picture: pageRisepal,
+      url: "https://arouse.risepal.com/",
+      key: "risepal"
+    },
     {
       logo: logoFetcher,
       name: "Fetcher",
@@ -63,6 +76,9 @@ function App() {
           </HashLink>
           <HashLink smooth to="#fetcher" className={fetcher}>
             <img src={logoFetcher} width='32px' height='32px' loading='lazy' alt='fethcer-logo' className={imgStyle} />
+          </HashLink>
+          <HashLink smooth to="#risepal" className={risepal}>
+            <img src={logoRisepal} width='28px' height='28px' loading='lazy' alt='fethcer-logo' className={imgStyle}  />
           </HashLink>
         </Navigation>
         <Cover />
@@ -113,15 +129,21 @@ const imgStyle = css`
 `
 const fetcher = css`
   position: absolute;
+  left: 24px;
   display: block;
 `
 const lounge = css`
 position: absolute;
-left: 24px;
+left: 48px;
 display: block;
 `
 const skillshare = css`
+  position: absolute;
+  left:72px;
+  display: block;
+`
+
+const risepal = css`
 position: absolute;
-left: 48px;
 display: block;
 `
